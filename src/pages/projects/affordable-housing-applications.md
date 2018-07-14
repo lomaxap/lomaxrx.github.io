@@ -28,7 +28,7 @@ Tasked with implementing the Code for DC rails app at Bread, I ran into a number
 
 <!-- Once to `POST` client information to the rails app, then again from the rails app to confirm and maybe even send back a PDF payload. -->
 
-<video autoplay loop>
+<video autoplay muted loop playsinline>
   <source src="/static/images/post-images/megaapp.mp4" type="video/mp4">
   <source src="/static/images/post-images/megaapp.ogg" type="video/ogg">
 </video>
