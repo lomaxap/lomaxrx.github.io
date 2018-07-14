@@ -122,6 +122,8 @@ function resize(){
   let w = window.innerWidth;
   let h = window.innerHeight;
 
+  if(w < 600) return;
+
   renderer.resize(w, h);
   reposition();
   render();
