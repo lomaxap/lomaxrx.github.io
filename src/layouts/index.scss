@@ -32,8 +32,8 @@ body {
 // TYPE
 
 @font-face {
-  font-family: 'Baskerville';
-  font-weight: 500;
+  font-family: 'BaskervilleOldFace';
+  font-weight: 400;
   font-style: normal;
   src: url('/static/fonts/Baskerville Old Face.ttf');
 }
@@ -43,6 +43,13 @@ body {
   font-weight: 400;
   font-style: normal;
   src: url('/static/fonts/Baskerville-Regular.otf');
+}
+
+@font-face {
+  font-family: 'Baskerville';
+  font-weight: bold;
+  font-style: normal;
+  src: url('/static/fonts/Baskerville-SemiBold.otf');
 }
 
 @font-face {
@@ -59,9 +66,9 @@ body {
 }
 
 h1 {
-  font-family: 'Baskerville';
+  font-family: 'BaskervilleOldFace';
   font-style: normal;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 40px;
   @media (min-width: 990px){
     font-size: 48px;
@@ -69,9 +76,9 @@ h1 {
 }
 
 h2, h3 {
-  font-family: 'Baskerville';
+  font-family: 'BaskervilleOldFace';
   font-style: normal;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 h2 {
@@ -121,6 +128,10 @@ p, .project li, blockquote {
 
 a {
   color: #31AEE2;
+}
+
+strong {
+    letter-spacing: -0.25px;
 }
 
 // GRID
