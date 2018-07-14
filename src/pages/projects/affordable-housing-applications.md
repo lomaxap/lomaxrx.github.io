@@ -45,7 +45,7 @@ Code for DC's implementation, while developed for Bread, was open and available 
 
 ## Lessons Learned: What would a healthy ecosystem of civic/human services tech look like?  
 
-According to NTEN's 2017 survey, most nonprofits are doing pretty well with tech. 70% are happy with their current software, and 80% have at least 1 FTE dedicated to maintaining it.
+According to [NTEN's 2017 survey](https://www.nten.org/wp-content/uploads/2017/05/Staffing_Report2016_v13.pdf), most nonprofits are doing pretty well with tech. 70% are happy with their current information systems, and most of those have at least 1 FTE dedicated to maintaining it.
 
 Going through this process with Bread, **I've come to think that that if we solve very specific problems with standalone, siloed apps, we miss an opportunity for other nonprofits to integrate what we've built more seamlessly into their existing business processes.**
 
