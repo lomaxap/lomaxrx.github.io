@@ -1,2 +1,0 @@
-webpackJsonp([0xc96fca6512b9],{441:function(t,a){t.exports={data:{markdownRemark:{html:"",frontmatter:{date:"July 02, 2018",title:"Policy Paper Automation",background:null,scripts:null}}},pathContext:{slug:"/projects/policy-paper-automation/",previous:{fields:{slug:"/projects/wagtail-headless-cms/"},frontmatter:{title:"(Slowly) Migrating to a Headless CMS"}},next:{fields:{slug:"/projects/affordable-housing-applications/"},frontmatter:{title:"Affordable Housing"}}}}}});
-//# sourceMappingURL=path---projects-policy-paper-automation-1a096cfa287097b1b2f4.js.map

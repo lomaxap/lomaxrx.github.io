@@ -1,2 +1,0 @@
-webpackJsonp([0xdeb510637436],{453:function(t,a){t.exports={data:{markdownRemark:{html:"",frontmatter:{date:"July 01, 2018",title:"(Slowly) Migrating to a Headless CMS",background:null,scripts:null}}},pathContext:{slug:"/projects/wagtail-headless-cms/",previous:null,next:{fields:{slug:"/projects/policy-paper-automation/"},frontmatter:{title:"Policy Paper Automation"}}}}}});
-//# sourceMappingURL=path---projects-wagtail-headless-cms-ff4a6b574d76e18df9e4.js.map

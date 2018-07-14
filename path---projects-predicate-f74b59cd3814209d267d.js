@@ -1,2 +1,0 @@
-webpackJsonp([0xfc8462140e8a],{446:function(t,e){t.exports={data:{markdownRemark:{html:"",frontmatter:{date:"July 05, 2018",title:"Predicate",background:null,scripts:null}}},pathContext:{slug:"/projects/predicate/",previous:{fields:{slug:"/projects/affordable-housing-applications/"},frontmatter:{title:"Affordable Housing"}},next:null}}}});
-//# sourceMappingURL=path---projects-predicate-f74b59cd3814209d267d.js.map

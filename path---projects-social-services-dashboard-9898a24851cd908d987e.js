@@ -1,2 +1,0 @@
-webpackJsonp([0xa2aeef702fb8],{447:function(t,a){t.exports={data:{markdownRemark:{html:"",frontmatter:{date:"July 03, 2018",title:"Social Services Dashboard",background:null,scripts:null}}},pathContext:{slug:"/projects/social-services-dashboard/",previous:{fields:{slug:"/projects/policy-paper-automation/"},frontmatter:{title:"Policy Paper Automation"}},next:{fields:{slug:"/projects/affordable-housing-applications/"},frontmatter:{title:"Affordable Housing"}}}}}});
-//# sourceMappingURL=path---projects-social-services-dashboard-9898a24851cd908d987e.js.map
