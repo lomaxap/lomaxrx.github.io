@@ -1,0 +1,285 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+#site {
+  transition: background-color 0.35s ease;
+  min-height: 100vh;
+}
+
+#site > canvas {
+  position: fixed;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+}
+
+.page {
+  position: relative;
+  z-index: 1;
+  padding-top: 75px;
+  padding-bottom: 150px;
+}
+
+// TYPE
+
+@font-face {
+  font-family: 'Baskerville';
+  font-weight: 500;
+  font-style: normal;
+  src: url('/static/fonts/Baskerville Old Face.ttf');
+}
+
+@font-face {
+  font-family: 'Baskerville';
+  font-weight: 400;
+  font-style: normal;
+  src: url('/static/fonts/Baskerville-Regular.otf');
+}
+
+@font-face {
+  font-family: 'Baskerville';
+  font-weight: 400;
+  font-style: oblique;
+  src: url('/static/fonts/Baskerville-Italic.otf');
+}
+
+@font-face {
+  font-family: 'Dense';
+  font-weight: normal;
+  src: url('/static/fonts/Dense-Regular.otf');
+}
+
+h1 {
+  font-family: 'Baskerville';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  @media (min-width: 990px){
+    font-size: 48px;
+  }
+}
+
+h2, h3 {
+  font-family: 'Baskerville';
+  font-style: normal;
+  font-weight: 500;
+}
+
+h2 {
+  font-size: 32px;
+  @media (min-width: 990px){
+    font-size: 38px;
+  }
+}
+
+h3 {
+  font-size: 26px;
+}
+
+h4, h5, h6 {
+  font-family: 'Dense';
+  font-weight: normal;
+  margin: 0;
+}
+
+h4 {
+  font-size: 24px;
+  letter-spacing: 3.55px;
+}
+
+h5 {
+  font-size: 18px;
+}
+
+p, li, blockquote, label {
+  font-family: 'Baskerville';
+  font-weight: 400;
+}
+
+p, .project li, blockquote {
+  font-size: 22px;
+  line-height: 32px;
+  margin-top: 22px;
+  margin-bottom: 22px;
+
+  @media (min-width: 990px){
+    font-size: 24px;
+    line-height: 36px;
+    margin-top: 26px;
+    margin-bottom: 26px;
+  }
+}
+
+a {
+  color: #31AEE2;
+}
+
+// GRID
+
+@mixin flex($percent){
+  -ms-flex: 0 0 $percent;
+  flex: 0 0 $percent;
+  max-width: $percent;
+}
+
+[class*="container"] {
+  max-width: 990px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.container-800 {
+  max-width: 800px;
+}
+
+[class*="row"]{
+  display: flex;
+  align-items: flex-start;
+  margin-left: -15px;
+  margin-right: -15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+
+  &:after{
+    content: '';
+    display: block;
+    clear: both;
+  }
+}
+
+[class*="row"].flex-center {
+  align-items: center;
+}
+
+[class*="col-"]{
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 100%;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  max-width: 100%;
+}
+
+.col-1 {
+  @include flex(8.333333%);
+}
+
+.col-2 {
+  @include flex(16.66666%);
+}
+
+.col-3 {
+  @include flex(25%);
+}
+
+.col-4 {
+  @include flex(33.33333%);
+}
+
+.col-5 {
+  @include flex(41.66666%);
+}
+
+.col-6 {
+  @include flex(50%);
+}
+
+.col-7 {
+  @include flex(58.33333%);
+}
+
+.col-8 {
+  @include flex(66.66666%);
+}
+
+.col-9 {
+  @include flex(75%);
+}
+
+.col-10 {
+  @include flex(8.33333%);
+}
+
+.col-11 {
+  @include flex(91.6666%);
+}
+
+.col-12 {
+  @include flex(100%);
+}
+
+@media (min-width:700px){
+  .col-sm-5 {
+    @include flex(41.66666%);
+  }
+
+  .col-sm-6{
+    @include flex(50%);
+  }
+
+  .col-sm-7 {
+    @include flex(58.33333%);
+  }
+}
+
+@media (min-width:990px){
+  .col-lg-5 {
+    @include flex(41.66666%);
+  }
+
+  .col-lg-6{
+    @include flex(50%);
+  }
+
+  .col-lg-7 {
+    @include flex(58.33333%);
+  }
+}
+
+
+
+// BACKGROUNDS
+
+#site.black-background {
+  background-color: #0f0f0f;
+  background-color: #1c1c1c;
+
+  h1, h2, h3, h4, h5, h6, p, li, blockquote{
+    color: #ffffff !important;
+  }
+}
+
+#site.blue-background {
+  background-color: #31AEE2;
+
+  h1, h2, h3, h4, h5, h6, p, li, blockquote, a{
+    color: #ffffff !important;
+  }
+}
+
+#site.red-background {
+  background-color: #EF9696;
+
+  h1, h2, h3, h4, h5, h6, p, li, blockquote, a{
+    color: #ffffff !important;
+  }
+}
+
+#site.transparent-background > canvas{
+  opacity: 0;
+}

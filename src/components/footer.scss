@@ -1,0 +1,87 @@
+footer{
+  border-top: 1px solid rgba(#000,0.25);
+  padding-top: 60px;
+  padding-bottom: 60px;
+  position: relative;
+  z-index: 1;
+  background: rgba(#fff, 1);
+  transition: background 0.35s ease;
+}
+
+footer a {
+  text-decoration: none;
+  color: #111111;
+  transition: color 0.35s ease;
+}
+
+#site.black-background footer a,
+#site.blue-background footer a,
+#site.red-background footer a{
+  color: #fff;
+}
+
+#site.black-background footer {
+  border-top-color: #000;
+  background: #1c1c1c;
+  background: #191919;
+}
+
+#site.blue-background footer {
+  background: #31AEE2;
+}
+
+#site.red-background footer {
+  background: #774A4A;
+  background: #EF9696;
+}
+
+footer a:hover{
+  color: #31AEE2 !important;
+}
+
+footer img{
+  vertical-align: middle;
+  display: inline-block;
+  position: relative;
+  top: -3px;
+}
+
+footer .site-map {
+  margin-bottom: 0;
+}
+
+footer ul {
+  list-style: none;
+  margin-left: 0;
+  padding: 0;
+}
+
+footer li {
+  font-size: 18px;
+}
+
+footer li:not(:last-child){
+  margin-bottom: 10px;
+}
+
+footer .gatsby-logo{
+  margin-top: 15px;
+
+  p {
+    font-size: 16px;
+    margin-bottom: 0;
+  }
+
+  img {
+    display: block;
+  }
+
+  @media (min-width:600px){
+    text-align: right;
+    margin-top: 0px;
+
+    img {
+      display: inline;
+    }
+  }
+}

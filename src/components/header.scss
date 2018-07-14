@@ -1,0 +1,125 @@
+header {
+  padding-top: 15px;
+  padding-bottom: 35px;
+  position: relative;
+  z-index: 1;
+
+  @media (min-width: 990px){
+    padding-top: 35px;
+  }
+}
+
+header a {
+  color: #000000;
+  text-decoration: none;
+}
+
+header .name-title .title{
+  display: none;
+  @media (min-width: 990px){
+    display: inline;
+  }
+}
+
+header .skills{
+  display: none;
+  @media (min-width: 990px){
+    display: block;
+  }
+}
+
+.header__spacer{
+  display: block;
+  padding-left: 0 !important;
+  text-align: right;
+  transition: transform 0.3s ease-in-out;
+  border-top: 0px;
+  white-space: nowrap;
+
+  @media (min-width: 990px){
+    padding-right: 0 !important;
+    position: absolute;
+    overflow: hidden;
+    height: 62px;
+    text-align: center;
+    border-top: 1px solid #000;
+    top: 50%;
+    left: 50%;
+    width: 25% !important;
+    transform: translate(-50%, calc(-50% + 31px));
+  }
+}
+
+.header__spacer p {
+  display: inline-block;
+  vertical-align: middle;
+  font-style: italic;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  opacity: 0;
+  white-space: normal;
+  width: 125px;
+  height: 52px;
+  line-height: 26px;
+  transition: opacity 0.3s ease-in-out;
+
+  @media (min-width: 990px){
+    margin-right: 0;
+    line-height: 32px;
+    margin-top: 15px;
+    width: auto;
+    height: auto;
+    line-height: initial !important;
+  }
+}
+
+.header__spacer .prev-page,
+.header__spacer .next-page {
+  //display: none;
+  font-family: "Dense";
+  font-size: 26px;
+  display: inline-block;
+  vertical-align: middle;
+  @media (min-width: 990px){
+    margin-top: 15px;
+    float: left;
+  }
+}
+
+.header__spacer .prev-page{
+  padding-right: 15px;
+  @media (min-width: 990px){
+
+    float: left;
+  }
+}
+
+.header__spacer .next-page{
+  padding-left: 15px;
+  @media (min-width: 990px){
+
+    float: right;
+  }
+}
+
+
+.header__spacer.expanded {
+  @media (min-width: 990px){
+    transform: translate(-50%, -50%);
+  }
+}
+
+.header__spacer.expanded p{
+  opacity: 1;
+}
+
+header #skills{
+  text-align: right;
+}
+
+#site.black-background .header__spacer,
+#site.blue-background .header__spacer,
+#site.red-background .header__spacer{
+  border-top-color: #fff;
+}

@@ -1,0 +1,18 @@
+.about__image__wrapper{
+  width: 250px;
+  height: auto;
+  overflow: hidden;
+  position: relative;
+  margin: 0 auto;
+  margin-bottom: 25px;
+  margin-top: 30px;
+  @media (min-width:990px){
+    margin-bottom: 0px;
+  }
+}
+
+.about__image__0 {
+  width: 100%;
+  width: 280px;
+
+}
