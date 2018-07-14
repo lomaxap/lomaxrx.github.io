@@ -30,7 +30,7 @@ const ContactForm = () => (
       <div style={{maxWidth: '525px', margin: '50px auto 50px auto', textAlign: 'center'}}>
         <p>{"Yes. I'm available for freelance data viz and website design/dev work!"}</p>
       </div>
-      <form action="https://formspree.io/your@email.com"
+      <form action="https://formspree.io/andrewlomaxr@gmail.com"
         method="POST">
         <div className="input">
           <label htmlFor="name">Name</label>
