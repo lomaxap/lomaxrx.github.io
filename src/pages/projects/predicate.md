@@ -35,6 +35,7 @@ In other words, **how could I make an app that was potentially as expressive as 
 My central idea was to create three types of data that map well to how we naturally talk about what we do: People, Actions, and Things. Subjects, verbs, and objects.
 
 <video  autoplay muted loop playsinline class="right" style="margin-top:60px;">
+  <source src="/static/images/post-images/pdt-relate.webm" type="video/webm">
   <source src="/static/images/post-images/pdt-relate.mp4" type="video/mp4">
   <source src="/static/images/post-images/pdt-relate.ogg" type="video/ogg">
 </video>
@@ -44,6 +45,7 @@ The social worker begins by developing a glossary of terms that are relevant to 
 It then becomes a process of constructing simple sentences that describe what you do. **Client** > **Receives** > **Rental Assistance.** And those sentences translate into an interface (image \#1) you can use.
 
 <video autoplay muted loop playsinline class="right">
+  <source src="/static/images/post-images/pdt-glossary.webm" type="video/webm">
   <source src="/static/images/post-images/pdt-glossary.mp4" type="video/mp4">
   <source src="/static/images/post-images/pdt-glossary.ogg" type="video/ogg">
 </video>
