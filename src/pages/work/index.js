@@ -6,7 +6,7 @@ import Link from 'gatsby-link'
 const WorkSectionDescription = ({ content : { frontmatter, html } }) => (
   <div className="work__section__text col-lg-6">
     <h1>{frontmatter.title}</h1>
-    <h2>{frontmatter.dateRange}</h2>
+    <h3>{frontmatter.dateRange}</h3>
     <div className="mobile-image">
       <img src={`/static/images/${frontmatter.images[0]}`}
         alt="screen shot of work" />
