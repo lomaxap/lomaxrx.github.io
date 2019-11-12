@@ -18,7 +18,7 @@ export default class Icons extends React.Component {
     return (
       <div className="social-media-icons">
         <ul>
-          <li><a href="https://github.com/LomaxRx/"><img src={github} alt="github"/></a></li>
+          <li><a href="https://github.com/lomaxap/"><img src={github} alt="github"/></a></li>
           <li><a href="https://codepen.io/lomaxrx/"><img src={codepen} alt="codepen"/></a></li>
           <li><a href="https://twitter.com/lomaxap"><img src={twitter} alt="twitter"/></a></li>
           <li><a href="https://www.last.fm/user/alowmax"><img src={lastfm} alt="lastfm"/></a></li>
